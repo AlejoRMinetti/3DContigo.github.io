@@ -1,2 +1,2 @@
-# 3DContigo.github.io
-Gallery photo for my 3D prints
+<a href="https://alejorminetti.github.io/3DContigo.github.io/">3DContigo.github.io</a>
+<p>Gallery photo for my 3D prints</p>
