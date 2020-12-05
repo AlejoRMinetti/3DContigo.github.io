@@ -1,6 +1,11 @@
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Pattaya|Work+Sans:400,200,300);
 
+/*defines*/
+:root{
+	--background-color-texts: #3ca3e7;
+  }
+
 /*
 	Radius by TEMPLATED
 	templated.co @templatedco
@@ -1242,7 +1247,7 @@
 			display: -ms-flexbox;
 			-ms-flex-align: center;
 			-ms-flex-pack: center;
-			background: #3ca8e7;
+			background: var(--background-color-texts);
 			border-radius: 100%;
 			width: 35em;
 			height: 35em;
@@ -1412,7 +1417,7 @@
 			display: inline-block;
 			text-decoration: none;
 			border-radius: 50% 50% 0 0;
-			background: #3ca3e7;
+			background: var(--background-color-texts);
 			width: 3em;
 			height: 3em;
 			margin-bottom: -1.75em;
@@ -1443,7 +1448,7 @@
 			-ms-flex-pack: center;
 			position: relative;
 			z-index: 10003;
-			background: #3ca3e7;
+			background: var(--background-color-texts);
 			padding: 2em;
 			height: 20em;
 		}
